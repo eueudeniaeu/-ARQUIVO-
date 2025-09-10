@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="import" content="width=device=width, initial-scale=1.0">
+        <title>Formulários - Parte 1</title>
+    </head>
+    <body>
+        <h1>Instituto Federal do Ceará</h1>
+        <h3>Cadastro de estudante</h3>
+        <!-- <form action="processar.php"> -->
+        <form>
+            <label for="iptNome">Nome:</label> <input type="text" id="iptNome" placeholder="primeiro nome"><br>
+            <label for="iptSobrenome">Sobrenome:</label> <input type="text" id="iptSobrenome" placeholder="último nome"><br>
+            <label for="iptIdade">Idade:</label> <input type="number" id="iptIdade"><br>
+            <label for="iptCor">Cor favorita:</label> <input type="color" id="iptCor"><br>
+            <label for="iptData"></label>Data de nascimento: <input type="date" id="iptData"><br>
+            <label for="iptSenha"></label>Senha: <input type="password" id="iptSenha">
+            
+            Sobre a titulação, possui nivel superior? <br>
+            <input type="radio" id="iptNSS" name="nmNS" value="0"> SIM <br>
+            <input type="radio" id="iptNSN" name="nmNS" value="1"> NÃO <br>
+
+            Linguagens favoritas <br>
+            <input type="checkBox" name="ckLang" value="0"> JavaSCript <br>
+            <input type="checkBox" name="ckLang" value="1"> Python <br>
+            <input type="checkBox" name="ckLang" value="2"> Java <br>
+            <input type="checkBox" name="ckLang" value="3"> C <br>
+            <input type="checkBox" name="ckLang" value="4"> Lua <br>
+            <input type="checkBox" name="ckLang" value="5"> SQL <br>
+            <input type="checkBox" name="ckLang" value="6"> Rust <br>
+
+            Naturalidade
+            <select id="iptEstado">
+                <option value="SP">São Paulo</option>
+                <option value="PR">Paraná</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="CE">Ceará</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="AM">Amazonas</option>
+            </select>
+            
+            <label for="Comentários">Comentários</label>
+            <textarea id="taComentarios" rows="3" cols="40"></textarea>
+
+            <!-- <input type="submit" value="Enviar"> -->
+             <input type="button" value="Enviar" onclick="mostrarDados">
+        </form>
+
+        <span id="spnDados"></span>
+
+        <script src="script.js"></script>
+    </body>
+</html>
