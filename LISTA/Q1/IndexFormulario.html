@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="import" content="width=device=width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="iptNome">Nome:&nbsp;</label> <input type="text" id="iptNome" placeholder="Nome Inteiro"> <br><br>
+                <label for="iptData">Data de nascimento:&nbsp;</label> <input type="text" id="iptData" placeholder="DD/MM/AAAA"> <br><br>
+
+                <label for="iptEndereco">Endereço:&nbsp;</label> <input type="text" id="iptEndereco"> <br><br>
+                <label for="iptBairro">Bairro:&nbsp;</label> <input type="text" id="iptBairro"> &nbsp;
+
+                <label for="iptCidade">Cidade:&nbsp;</label> <input type="text" id="iptCidade"> <br><br>
+                <label for="iptCEP">CEP:&nbsp;</label> <input type="text" id="iptCEP"> &nbsp;
+
+                <label for="iptEstado">Estado:&nbsp;</label>
+                <select id="iptEstado">
+                    <option value="CE">Ceará</option>
+                    <option value="PR">Paraná</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="AM">Amazonas</option>
+                </select>
+            </fieldset>
+        </form>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                Natureza do cargo: <br>
+                <input type="radio" id="iptGerencia" name="nmNS" value="0"> Gerência 
+                <input type="radio" id="iptFinanceiro" name="nmNS" value="1"> Financeiro 
+                <input type="radio" id="iptRecepcao" name="nmNS" value="2"> Recepção 
+                <input type="radio" id="iptAdministrativo" name="nmNS" value="3"> Administrativo 
+                <input type="radio" id="iptJuridico" name="nmNS" value="4"> Júridico <br><br>
+
+                Area de interesse: <br>
+                <input type="checkBox" name="ckComputacao" value="0"> Computação 
+                <input type="checkBox" name="ckQuimica" value="1"> Química 
+                <input type="checkBox" name="ckMeio" value="2"> Meio Ambiente 
+                <input type="checkBox" name="ckEngenharia" value="3"> Engenharia 
+                <input type="checkBox" name="ckMatematica" value="4"> Matemática <br><br>
+
+                <label for="Mini">Mini-curriculo:</label> <br>
+                <textarea id="taMini" rows="3" cols="40"></textarea>
+            </fieldset>
+            <br>
+            <!-- <input type="submit" value="Enviar"> -->
+             <input type="button" value="Enviar" onclick="mostrarDados">
+        </form>
+        <br>
+        <span id="spnDados"></span>
+    </body>
+</html>
