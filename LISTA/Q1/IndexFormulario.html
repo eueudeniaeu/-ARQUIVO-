@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="import" content="width=device=width, initial-scale=1.0">
@@ -9,17 +9,21 @@
         <h1>Formulário</h1>
         <form>
             <fieldset>
-                <legend>Dados pessoais</legend>
-                <label for="iptNome">Nome:&nbsp;</label> <input type="text" id="iptNome" placeholder="Nome Inteiro"> <br><br>
-                <label for="iptData">Data de nascimento:&nbsp;</label> <input type="text" id="iptData" placeholder="DD/MM/AAAA"> <br><br>
+                <legend>Dados pessoais</legend><br>
 
-                <label for="iptEndereco">Endereço:&nbsp;</label> <input type="text" id="iptEndereco"> <br><br>
-                <label for="iptBairro">Bairro:&nbsp;</label> <input type="text" id="iptBairro"> &nbsp;
+                <label for="iptNome">Nome: </label> <input type="text" size="40" id="iptNome" placeholder="Nome Inteiro"> <br><br>
 
-                <label for="iptCidade">Cidade:&nbsp;</label> <input type="text" id="iptCidade"> <br><br>
-                <label for="iptCEP">CEP:&nbsp;</label> <input type="text" id="iptCEP"> &nbsp;
+                <label for="iptData">Data de nascimento: </label> <input type="text" size="20" id="iptData" placeholder="DD/MM/AAAA"> <br><br>
 
-                <label for="iptEstado">Estado:&nbsp;</label>
+                <label for="iptEndereco">Endereço: </label> <input type="text" size="50" id="iptEndereco"> <br><br>
+
+                <label for="iptBairro">Bairro: </label> <input type="text" size="15" id="iptBairro">
+
+                <label for="iptCidade">Cidade: </label> <input type="text" size="20" id="iptCidade"> <br><br>
+
+                <label for="iptCEP">CEP: </label> <input type="text" size="10" id="iptCEP">
+
+                <label for="iptEstado">Estado: </label>
                 <select id="iptEstado">
                     <option value="CE">Ceará</option>
                     <option value="PR">Paraná</option>
@@ -48,8 +52,8 @@
                 <input type="checkBox" name="ckEngenharia" value="3"> Engenharia 
                 <input type="checkBox" name="ckMatematica" value="4"> Matemática <br><br>
 
-                <label for="Mini">Mini-curriculo:</label> <br>
-                <textarea id="taMini" rows="3" cols="40"></textarea>
+                <label for="taMini">Mini-curriculo:</label> <br>
+                <textarea id="taMini" name="taMini" rows="3" cols="40"></textarea>
             </fieldset>
             <br>
             <!-- <input type="submit" value="Enviar"> -->
