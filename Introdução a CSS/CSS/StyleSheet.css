@@ -3,26 +3,33 @@ body {
     background-image: url("image.extension");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right bottom;
-    background-size: cover;
+    background-position: center;
 }
 
-.butterfly.gif {
+/*.image.extension {
     width: 350px;
     height: 400px;
-}
+}*/
 
 h1 {
     color: #990000;
     background-color: #fc9804;
     text-align: center;
+    font-family: 'Courier New';
 }
 
 p {
     color:#ce8930;
     font-style: italic;
+    /*text-decoration: underline;*/
 }
 
 .bold-word {
     font-weight: bold;
+}
+
+.paragrafo2 {
+    color: rebeccapurple;
+    background-color:azure;
+    font-family: 'Courier New';
 }
