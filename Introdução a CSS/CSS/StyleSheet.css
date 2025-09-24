@@ -1,0 +1,28 @@
+body {
+    background-color: #ffcc66;
+    background-image: url("image.extension");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+.butterfly.gif {
+    width: 350px;
+    height: 400px;
+}
+
+h1 {
+    color: #990000;
+    background-color: #fc9804;
+    text-align: center;
+}
+
+p {
+    color:#ce8930;
+    font-style: italic;
+}
+
+.bold-word {
+    font-weight: bold;
+}
