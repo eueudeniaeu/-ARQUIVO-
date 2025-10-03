@@ -1,0 +1,20 @@
+body {
+    background-image: url('/Lista2/Images/200-high-resolution-frutiger-aero-wallpaper-collection-v0-rb9t5jyk9ble1.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Arial Helvetica;
+}
+
+div {
+    width: 300px;
+    border: 15xp;
+    padding: 50px;
+    margin: 20px;
+}
