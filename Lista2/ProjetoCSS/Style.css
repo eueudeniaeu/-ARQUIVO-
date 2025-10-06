@@ -1,20 +1,66 @@
 body {
     background-image: url('/Lista2/Images/200-high-resolution-frutiger-aero-wallpaper-collection-v0-rb9t5jyk9ble1.jpeg');
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-header {
+.page {
+    display: grid;
+    grid-template-rows: 160px 34px 1fr;
+    gap: 18px;
+    min-height: 100vh;
+    padding: 28px;
+    background-color: #8ad3f0;
+}
+
+.banner {
+    background-color: #8ad3f0;
+    color: #303030;
+    border: 2px solid #70b0c9;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 30px;
+}
+
+body {
     background-color: #ffffff;
-}
-
-h1 {
-    font-family: Arial Helvetica;
 }
 
 div {
     width: 300px;
-    border: 15xp;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid gray;
     padding: 50px;
     margin: 20px;
+}
+
+
+.logo {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Lista2/Images/9a1a05a8218152cc9f17187c3f8d467b.gif');
+}
+
+@media screen {
+    .page {
+        grid-template-rows: 120px 34px auto;
+        padding: 16px;
+    }
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .sidebar {
+        order: 2;
+    }
+    .content {
+        order: 1;
+    }
 }
