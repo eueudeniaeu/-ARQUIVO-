@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+#conatainer {
+    background-color: gray;
+    width: 100px;
+    height: 200px;
+}
+
+.box {
+    background-color: #b479db;
+    color: #10114b;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    display: flex;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 200%;
+}
+
+.boxMargin {
+    margin-right: 50px;
+    padding-top: 20px;
+}
