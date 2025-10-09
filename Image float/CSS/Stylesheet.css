@@ -1,0 +1,15 @@
+#picture {
+    border: 2px solid black;
+    float: left;
+    width: 310px;
+    /* height: 163px; */
+}
+
+#img2 {
+    float: right;
+    width: 310px;
+}
+
+/* p#p2 {
+    clear: ;
+} */
