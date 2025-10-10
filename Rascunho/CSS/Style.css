@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    border: 2px solid black;
+    height: 700px;
+    width: 500px;
+    margin: 5%;
+}
+
+header {
+    border: 1px solid black;
+    background-color: #bcb18f;
+    text-align: center;
+    height: 20%;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: #cc7d8a;
+    text-align: center;
+    height: 5%;
+}
+
+main {
+    height: 65%;
+}
+
+#col1 {
+    float: left;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #62b1b1;
+    text-align: center;
+    overflow: scroll;
+}
+
+#col2 {
+    float: right;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #895bb4;
+    text-align: center;
+    overflow: scroll;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: rgb(50, 50, 163);
+    text-align: center;
+    height: 10%;
+}
